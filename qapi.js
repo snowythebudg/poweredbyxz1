@@ -14,7 +14,13 @@ export default {
 		"68140255dc12f40020b49e6f": {
 			"id": "68140255dc12f40020b49e6f",
 			"name": "404",
-			"pageUrl": "404"
+			"pageUrl": "404",
+			"seo": {
+				"title": "Powered by XZ1 - 404",
+				"description": "Looks like someone's in the wrong spot!",
+				"og:description": "Looks like someone's in the wrong spot!",
+				"og:title": "Powered by XZ1 - 404"
+			}
 		},
 		"68140255dc12f40020b49e72": {
 			"id": "68140255dc12f40020b49e72",
@@ -24,12 +30,24 @@ export default {
 		"68140a807d6a95001a624f8a": {
 			"id": "68140a807d6a95001a624f8a",
 			"pageUrl": "apply",
-			"name": "Apply"
+			"name": "Apply",
+			"seo": {
+				"title": "Powered by XZ1 - Apply",
+				"description": "Apply to Powered by XZ1, the next generation of label partnership services",
+				"og:description": "Apply to Powered by XZ1, the next generation of label partnership services",
+				"og:title": "Powered by XZ1 - Apply"
+			}
 		},
 		"68140be5dc12f40020b49f47": {
 			"id": "68140be5dc12f40020b49f47",
 			"pageUrl": "services",
-			"name": "Services"
+			"name": "Services",
+			"seo": {
+				"title": "Powered by XZ1 - Our services",
+				"description": "All the services that Powered by XZ1 has to offer",
+				"og:description": "All the services that Powered by XZ1 has to offer",
+				"og:title": "Powered by XZ1 - Our services"
+			}
 		}
 	},
 	"mode": "production",
