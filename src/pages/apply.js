@@ -3,7 +3,7 @@ import theme from "theme";
 import { Theme, Link, Text, Section } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
-import { RawHtml } from "@quarkly/components";
+import { RawHtml, Override } from "@quarkly/components";
 import * as Components from "components";
 export default (() => {
 	return <Theme theme={theme}>
@@ -23,7 +23,9 @@ export default (() => {
 			<link rel={"apple-touch-startup-image"} href={"https://uploads.quarkly.io/68140255dc12f40020b49e6a/images/PWRDXZ1.png?v=2025-05-01T23:57:03.232Z"} />
 			<meta name={"msapplication-TileImage"} content={"https://uploads.quarkly.io/68140255dc12f40020b49e6a/images/PWRDXZ1.png?v=2025-05-01T23:57:03.232Z"} />
 		</Helmet>
-		<Components.QuarklycommunityKitScrollIndicator />
+		<Components.QuarklycommunityKitScrollIndicator>
+			<Override slot="Indicator" background="#ff0000" />
+		</Components.QuarklycommunityKitScrollIndicator>
 		<Components.Header05012 />
 		<Section
 			text-align="center"
