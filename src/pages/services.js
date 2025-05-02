@@ -1,11 +1,11 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Box, Text, Icon, Span, Section } from "@quarkly/widgets";
+import { Theme, Link, Box, Text, Icon, Span, Section, Button } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override } from "@quarkly/components";
 import * as Components from "components";
-import { IoIosCheckmarkCircle } from "react-icons/io";
+import { IoIosCheckmarkCircle, IoIosCheckmark } from "react-icons/io";
 export default (() => {
 	return <Theme theme={theme}>
 		<GlobalQuarklyPageStyles pageUrl={"services"} />
@@ -172,6 +172,430 @@ export default (() => {
 						>
 							Portal access: Powered by XZ1 clients get their own spot on the XZ1 RS (Release Submission) Portal (link above). We will forward all the submissions to your email on file.
 						</Span>
+					</Text>
+				</Box>
+			</Box>
+		</Section>
+		<Section
+			padding="120px 0 120px 0"
+			lg-margin="0 0 0 0"
+			lg-padding="80px 0 80px 0"
+			quarkly-title="Price-11"
+			background="#000000"
+		>
+			<Override slot="SectionContent" border-width="0px" />
+			<Text
+				margin="0px 0px 20px 0px"
+				font="normal 600 46px/1.2 --fontFamily-googleMichroma"
+				text-align="center"
+				md-margin="0px 0px 50px 0px"
+				width="700p"
+				align-self="center"
+				color="#ffffff"
+				sm-margin="0px 0px 30px 0px"
+			>
+				Custom XZ1 email
+			</Text>
+			<Text
+				margin="0px 0px 70px 0px"
+				text-align="center"
+				font="normal 300 20px/1.5 --fontFamily-googleRobotoCondensed"
+				width="700px"
+				align-self="center"
+				md-width="100%"
+				color="#ffffff"
+				md-margin="0px 0px 60px 0px"
+				sm-margin="0px 0px 40px 0px"
+			>
+				Along with your label partnership, you can also get a custom @xz1recordings.ca email with your label name and dashboard access. Your email account will also work with Gmail or other email providers.
+			</Text>
+			<Box
+				min-width="100px"
+				min-height="100px"
+				display="flex"
+				lg-margin="0px 0 0px 0"
+				md-flex-direction="column"
+				lg-flex-direction="column"
+				border-color="#ffffff"
+				border-radius="25px"
+				padding="10px 10px 10px 0px"
+				lg-padding="10px 10px 10px 10px"
+			>
+				<Box
+					min-width="100px"
+					min-height="100px"
+					padding="30px 80px 30px 30px"
+					border-color="#dadbe2"
+					display="flex"
+					flex-direction="column"
+					position="relative"
+					z-index="2"
+					width="70%"
+					lg-width="100%"
+					lg-padding="30px 30px 30px 30px"
+					font="normal 300 20px/1.5 --fontFamily-sansHelvetica"
+					md-border-width="1px"
+					md-align-items="stretch"
+					margin="0 0px 0px 0px"
+					lg-margin="0 0px 0 0px"
+					lg-border-radius="25px"
+					justify-content="center"
+					sm-padding="10px 10px 10px 10px"
+				>
+					<Box
+						min-width="100px"
+						min-height="100px"
+						display="flex"
+						flex-direction="column"
+						margin="0px 0px 35px 0px"
+					>
+						<Text
+							margin="0px 0px 15px 0px"
+							font="normal 600 25px/1.5 --fontFamily-googleRobotoCondensed"
+							color="#ff0000"
+							lg-margin="0px 0px 20px 0px"
+							sm-margin="0px 0px 10px 0px"
+						>
+							Custom @xz1recordings.ca partner label email
+						</Text>
+						<Text margin="0px 0px 25px 0px" font="normal 300 17px/1.5 --fontFamily-googleRobotoCondensed" color="#ffffff">
+							You can get your very own professional @xz1recordings.ca email with your own label name or any name of your choosing.
+						</Text>
+						<Box
+							min-width="10px"
+							min-height="10px"
+							display="grid"
+							grid-template-columns="repeat(2, 1fr)"
+							sm-grid-template-columns="1fr"
+						>
+							<Box min-width="10px" min-height="10px" display="flex" align-items="center">
+								<Icon
+									category="io"
+									icon={IoIosCheckmark}
+									size="32px"
+									color="#ff0000"
+									margin="0px 8px 0px 0px"
+								/>
+								<Text margin="0px 0px 0px 0px" font="normal 300 17px/1.2 --fontFamily-googleRobotoCondensed" color="#ffffff">
+									Email forwarding
+								</Text>
+							</Box>
+							<Box min-width="10px" min-height="10px" display="flex" align-items="center">
+								<Icon
+									category="io"
+									icon={IoIosCheckmark}
+									size="32px"
+									color="#ff0000"
+									margin="0px 8px 0px 0px"
+								/>
+								<Text margin="0px 0px 0px 0px" font="normal 300 17px/1.2 --fontFamily-googleRobotoCondensed" color="#ffffff">
+									Professional for potential artists
+								</Text>
+							</Box>
+							<Box min-width="10px" min-height="10px" display="flex" align-items="center">
+								<Icon
+									category="io"
+									icon={IoIosCheckmark}
+									size="32px"
+									color="#ff0000"
+									margin="0px 8px 0px 0px"
+								/>
+								<Text margin="0px 0px 0px 0px" font="normal 300 17px/1.2 --fontFamily-googleRobotoCondensed" color="#ffffff">
+									Able to connect to Gmail
+								</Text>
+							</Box>
+							<Box min-width="10px" min-height="10px" display="flex" align-items="center">
+								<Icon
+									category="io"
+									icon={IoIosCheckmark}
+									size="32px"
+									color="#ff0000"
+									margin="0px 8px 0px 0px"
+								/>
+								<Text margin="0px 0px 0px 0px" font="normal 300 17px/1.2 --fontFamily-googleRobotoCondensed" color="#ffffff">
+									Your choice of a name
+								</Text>
+							</Box>
+						</Box>
+					</Box>
+				</Box>
+				<Box
+					min-width="100px"
+					min-height="100px"
+					padding="30px 60px 30px 60px"
+					border-color="#dadbe2"
+					display="flex"
+					flex-direction="column"
+					position="relative"
+					z-index="1"
+					lg-width="100%"
+					lg-align-items="stretch"
+					md-align-items="stretch"
+					sm-padding="30px 15px 30px 15px"
+					justify-content="center"
+					lg-border-radius="25px"
+					background="#000000"
+					width="40%"
+					border-radius="25px"
+					lg-order="-1"
+					lg-margin="0px 0px 40px 0px"
+					md-margin="0px 0px 30px 0px"
+				>
+					<Box
+						min-width="100px"
+						min-height="100px"
+						display="flex"
+						flex-direction="column"
+						margin="0px 0px 0 0px"
+					>
+						<Text margin="0px 0px 15px 0px" font="normal 300 20px/1.5 --fontFamily-googleRobotoCondensed" color="#ff0000" text-align="center">
+							Custom email
+						</Text>
+						<Text margin="0px 0px 20px 0px" font="normal 400 17px/1.5 --fontFamily-googleMichroma" color="#80868a" text-align="center">
+							<Span
+								font="normal 700 46px/1.2 --fontFamily-sans"
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+								user-select="auto"
+								pointer-events="auto"
+								color="#ff0000"
+							>
+								$19.99
+							</Span>
+							CAD
+						</Text>
+					</Box>
+					<Button
+						background="#ff0000"
+						color="#ffffff"
+						border-color="#ff0000"
+						border-radius="4px"
+						font="normal 400 17px/1.5 --fontFamily-googleMichroma"
+						margin="0px 0px 20px 0px"
+						type="link"
+						text-align="center"
+						href="https://paypal.me/mintybudgie"
+					>
+						Purchase
+					</Button>
+					<Text margin="0px 0px 15px 0px" font="normal 300 17px/1.5 --fontFamily-googleRobotoCondensed" color="#ffffff" text-align="center">
+						Your very own custom @xz1recordings.ca email. This is a one time purchase. After your purchase, you'll recieve an email asking what prefix you want and we'll create your email and send you provider setup instructions.
+					</Text>
+				</Box>
+			</Box>
+		</Section>
+		<Section
+			padding="120px 0 120px 0"
+			lg-margin="0 0 0 0"
+			lg-padding="80px 0 80px 0"
+			quarkly-title="Price-11"
+			background="#000000"
+		>
+			<Override slot="SectionContent" border-width="0px" />
+			<Text
+				margin="0px 0px 20px 0px"
+				font="normal 600 46px/1.2 --fontFamily-googleMichroma"
+				text-align="center"
+				md-margin="0px 0px 50px 0px"
+				width="700p"
+				align-self="center"
+				color="#ffffff"
+				sm-margin="0px 0px 30px 0px"
+			>
+				Custom XZ1 subdomain
+			</Text>
+			<Text
+				margin="0px 0px 70px 0px"
+				text-align="center"
+				font="normal 300 20px/1.5 --fontFamily-googleRobotoCondensed"
+				width="700px"
+				align-self="center"
+				md-width="100%"
+				color="#ffffff"
+				md-margin="0px 0px 60px 0px"
+				sm-margin="0px 0px 40px 0px"
+			>
+				Along with your label partnership, you can also get a custom xz1recordings.ca subdomain with your label name. We can handle DNS installation on your behalf with a purchase of an XZ1 subdomain.
+			</Text>
+			<Box
+				min-width="100px"
+				min-height="100px"
+				display="flex"
+				lg-margin="0px 0 0px 0"
+				md-flex-direction="column"
+				lg-flex-direction="column"
+				border-color="#ffffff"
+				border-radius="25px"
+				padding="10px 10px 10px 0px"
+				lg-padding="10px 10px 10px 10px"
+			>
+				<Box
+					min-width="100px"
+					min-height="100px"
+					padding="30px 80px 30px 30px"
+					border-color="#dadbe2"
+					display="flex"
+					flex-direction="column"
+					position="relative"
+					z-index="2"
+					width="70%"
+					lg-width="100%"
+					lg-padding="30px 30px 30px 30px"
+					font="normal 300 20px/1.5 --fontFamily-sansHelvetica"
+					md-border-width="1px"
+					md-align-items="stretch"
+					margin="0 0px 0px 0px"
+					lg-margin="0 0px 0 0px"
+					lg-border-radius="25px"
+					justify-content="center"
+					sm-padding="10px 10px 10px 10px"
+				>
+					<Box
+						min-width="100px"
+						min-height="100px"
+						display="flex"
+						flex-direction="column"
+						margin="0px 0px 35px 0px"
+					>
+						<Text
+							margin="0px 0px 15px 0px"
+							font="normal 600 25px/1.5 --fontFamily-googleRobotoCondensed"
+							color="#ff0000"
+							lg-margin="0px 0px 20px 0px"
+							sm-margin="0px 0px 10px 0px"
+						>
+							Custom @xz1recordings.ca partner label subdomain
+						</Text>
+						<Text margin="0px 0px 25px 0px" font="normal 300 17px/1.5 --fontFamily-googleRobotoCondensed" color="#ffffff">
+							You can get your very own professional xz1recordings.ca subdomain with your own label name or any name of your choosing.
+						</Text>
+						<Box
+							min-width="10px"
+							min-height="10px"
+							display="grid"
+							grid-template-columns="repeat(2, 1fr)"
+							sm-grid-template-columns="1fr"
+						>
+							<Box min-width="10px" min-height="10px" display="flex" align-items="center">
+								<Icon
+									category="io"
+									icon={IoIosCheckmark}
+									size="32px"
+									color="#ff0000"
+									margin="0px 8px 0px 0px"
+								/>
+								<Text margin="0px 0px 0px 0px" font="normal 300 17px/1.2 --fontFamily-googleRobotoCondensed" color="#ffffff">
+									Indexing by Google
+								</Text>
+							</Box>
+							<Box min-width="10px" min-height="10px" display="flex" align-items="center">
+								<Icon
+									category="io"
+									icon={IoIosCheckmark}
+									size="32px"
+									color="#ff0000"
+									margin="0px 8px 0px 0px"
+								/>
+								<Text margin="0px 0px 0px 0px" font="normal 300 17px/1.2 --fontFamily-googleRobotoCondensed" color="#ffffff">
+									More professional on search engines, likely to drag in more clients
+								</Text>
+							</Box>
+							<Box min-width="10px" min-height="10px" display="flex" align-items="center">
+								<Icon
+									category="io"
+									icon={IoIosCheckmark}
+									size="32px"
+									color="#ff0000"
+									margin="0px 8px 0px 0px"
+								/>
+								<Text margin="0px 0px 0px 0px" font="normal 300 17px/1.2 --fontFamily-googleRobotoCondensed" color="#ffffff">
+									Better visibility on search engines
+								</Text>
+							</Box>
+							<Box min-width="10px" min-height="10px" display="flex" align-items="center">
+								<Icon
+									category="io"
+									icon={IoIosCheckmark}
+									size="32px"
+									color="#ff0000"
+									margin="0px 8px 0px 0px"
+								/>
+								<Text margin="0px 0px 0px 0px" font="normal 300 17px/1.2 --fontFamily-googleRobotoCondensed" color="#ffffff">
+									Your choice of a name
+								</Text>
+							</Box>
+						</Box>
+					</Box>
+				</Box>
+				<Box
+					min-width="100px"
+					min-height="100px"
+					padding="30px 60px 30px 60px"
+					border-color="#dadbe2"
+					display="flex"
+					flex-direction="column"
+					position="relative"
+					z-index="1"
+					lg-width="100%"
+					lg-align-items="stretch"
+					md-align-items="stretch"
+					sm-padding="30px 15px 30px 15px"
+					justify-content="center"
+					lg-border-radius="25px"
+					background="#000000"
+					width="40%"
+					border-radius="25px"
+					lg-order="-1"
+					lg-margin="0px 0px 40px 0px"
+					md-margin="0px 0px 30px 0px"
+				>
+					<Box
+						min-width="100px"
+						min-height="100px"
+						display="flex"
+						flex-direction="column"
+						margin="0px 0px 0 0px"
+					>
+						<Text margin="0px 0px 15px 0px" font="normal 300 20px/1.5 --fontFamily-googleRobotoCondensed" color="#ff0000" text-align="center">
+							Custom subdomain
+						</Text>
+						<Text margin="0px 0px 20px 0px" font="normal 400 17px/1.5 --fontFamily-googleMichroma" color="#80868a" text-align="center">
+							<Span
+								font="normal 700 46px/1.2 --fontFamily-sans"
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+								user-select="auto"
+								pointer-events="auto"
+								color="#ff0000"
+							>
+								$14.99
+							</Span>
+							CAD
+						</Text>
+					</Box>
+					<Button
+						background="#ff0000"
+						color="#ffffff"
+						border-color="#ff0000"
+						border-radius="4px"
+						font="normal 400 17px/1.5 --fontFamily-googleMichroma"
+						margin="0px 0px 20px 0px"
+						type="link"
+						text-align="center"
+						href="https://paypal.me/mintybudgie"
+					>
+						Purchase
+					</Button>
+					<Text margin="0px 0px 15px 0px" font="normal 300 17px/1.5 --fontFamily-googleRobotoCondensed" color="#ffffff" text-align="center">
+						Your very own custom xz1recordings.ca subdomain. This is a one time purchase. After your purchase, you'll recieve an email asking what prefix you want and we'll create your subdomain and ask you about domain setup to get your site up and running under an XZ1 subdomain.
 					</Text>
 				</Box>
 			</Box>

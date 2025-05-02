@@ -153,7 +153,6 @@ export default {
 			}
 		}
 	},
-	"version": 1,
 	"fonts": {
 		"Michroma": {
 			"family": "Michroma",
@@ -192,5 +191,6 @@ export default {
 				]
 			}
 		}
-	}
+	},
+	"version": 8
 }
