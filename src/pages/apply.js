@@ -1,11 +1,10 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Section, Icon, Box, Input, Button } from "@quarkly/widgets";
+import { Theme, Link, Text, Section } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
-import { RawHtml, Formspree } from "@quarkly/components";
+import { RawHtml } from "@quarkly/components";
 import * as Components from "components";
-import { MdEmail } from "react-icons/md";
 export default (() => {
 	return <Theme theme={theme}>
 		<GlobalQuarklyPageStyles pageUrl={"apply"} />
@@ -51,117 +50,32 @@ export default (() => {
 			</Text>
 		</Section>
 		<Section
+			text-align="center"
+			background-color="--primary"
 			color="--light"
-			padding="100px 0"
+			padding="80px 0"
 			sm-padding="40px 0"
-			position="relative"
-			background="--color-darkL2 url(https://images.unsplash.com/photo-1558419673-368b60ec0bc9?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000)"
-			quarkly-title="Form-1"
+			background="rgb(0, 119, 204) url(https://images.unsplash.com/photo-1558419673-368b60ec0bc9?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000) 0% 0% /auto repeat scroll padding-box"
 		>
-			<Box margin="-16px -16px -16px -16px" display="flex" flex-wrap="wrap">
-				<Box padding="16px 16px 16px 16px" width="50%" md-width="100%">
-					<Box>
-						<Box
-							position="relative"
-							padding="0 0 0 64px"
-							sm-padding="64px 0 0 0"
-							margin="64px 0 0 0"
-							max-width="360px"
-						>
-							<Icon
-								top="0"
-								left="0"
-								category="md"
-								icon={MdEmail}
-								position="absolute"
-								size="48px"
-							/>
-							<Text font="--base" as="h4" margin="6px 0">
-								Email us
-							</Text>
-							<Text as="p" margin="6px 0" font="--headline3">
-								<Link href="mailto:hello@company.com" text-decoration="none" hover-text-decoration="underline" color="--light">
-									poweredby@xz1recordings.ca
-								</Link>
-							</Text>
-						</Box>
-					</Box>
-				</Box>
-				<Box width="50%" padding="8px 8px 8px 8px" md-width="100%">
-					<Box>
-						<Box
-							padding="56px 48px"
-							margin="0 0 0 auto"
-							md-max-width="100%"
-							background="#000000"
-							max-width="360px"
-						>
-							<Text as="h3" font="--headline3" margin="0 0 20px 0">
-								Apply to Powered by XZ1
-							</Text>
-							<Formspree endpoint="mkgrjgnn" completeText="Thanks for applying, we'll get back to you if we're interested in working with you or if we need more information!" errorMessage="Your application did not go through. Please re-submit, contact XZ1 Recordings, or try again later.">
-								<Box gap="16px" display="flex" flex-direction="row" flex-wrap="wrap">
-									<Box padding="8px 8px 8px 8px" width="100%">
-										<Box display="flex" flex-direction="column">
-											<Text margin="0 0 4px 0" font="--base">
-												Your name
-											</Text>
-											<Input max-width="400px" width="100%" name="name" />
-										</Box>
-									</Box>
-									<Box padding="8px 8px 8px 8px" width="100%">
-										<Box display="flex" flex-direction="column">
-											<Text margin="0 0 4px 0" font="--base">
-												Label name
-											</Text>
-											<Input max-width="400px" width="100%" name="name" />
-										</Box>
-									</Box>
-									<Box padding="8px 8px 8px 8px" width="100%">
-										<Box display="flex" flex-direction="column">
-											<Text margin="0 0 4px 0" font="--base">
-												Is this for a new label or an existing label?
-											</Text>
-											<Input max-width="400px" width="100%" name="name" />
-										</Box>
-									</Box>
-									<Box padding="8px 8px 8px 8px" width="100%">
-										<Box display="flex" flex-direction="column">
-											<Text margin="0 0 4px 0" font="--base">
-												What genre is your label specialized in (or planning to specialize in)
-											</Text>
-											<Input max-width="400px" width="100%" name="name" />
-										</Box>
-									</Box>
-									<Box width="100%" padding="8px 8px 8px 8px">
-										<Box display="flex" flex-direction="column">
-											<Text font="--base" margin="0 0 4px 0">
-												Your email
-											</Text>
-											<Input max-width="400px" width="100%" type="email" name="email" />
-										</Box>
-									</Box>
-									<Box padding="8px 8px 8px 8px" width="100%">
-										<Box display="flex" flex-direction="column">
-											<Text font="--base" margin="0 0 4px 0">
-												Message
-											</Text>
-											<Input width="100%" name="message" as="textarea" rows="4" />
-										</Box>
-									</Box>
-									<Box width="100%" padding="8px 8px 8px 8px">
-										<Box display="flex" flex-direction="column" align-items="flex-start">
-											<Button background="#ff0000">
-												Send
-											</Button>
-										</Box>
-									</Box>
-								</Box>
-							</Formspree>
-						</Box>
-					</Box>
-				</Box>
-			</Box>
+			<Text
+				as="h5"
+				font="--lead"
+				margin="10px 0 0 0"
+				text-transform="uppercase"
+				letter-spacing="5px"
+			>
+				How to apply to powered by xz1
+			</Text>
+			<Text as="h1" font="--headline1" md-font="--headline2" margin="10px 0 0 0">
+				How to apply
+			</Text>
+			<Text as="p" font="--lead" margin="40px 0 20px 0">
+				You're probably wondering how to apply. Simply send us an email at
+				<Link href="mailto:poweredby@xz1recordings.ca?Powered by XZ1 label partnership inquiry" color="#ff0000">
+					{" "}poweredby@xz1recordings.ca
+				</Link>
+				{" "}and you'll automatically get a questionnaire to fill out. After that, we'll reply back and tell you whether you're accepted or not (or we may ask for more information) and if you're accepted, you'll recieve a contract to sign and other stuff we need from you (label name for C lines, PayPal email for payments, etc)
+			</Text>
 		</Section>
 		<Components.Footer05012 />
 		<Link

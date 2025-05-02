@@ -65,7 +65,179 @@ export default (() => {
 						lg-padding="0px 0 0px 0"
 						lg-margin="0px 0px 30px 0px"
 					>
-						Powered by XZ1's partner program helps new and existing labels focus on their marketing and surface-level operations while having a trusted team to power the backend operations. We offer exclusive distribution through The Orchard and access to all XZ1 Recordings web portals and services (Release submission, Artist Central, Creative Audio Industries, XZ1 MUSIC PUBLISHING). Click "Our services" on the navbar to see what we offer and then head to the Apply page to send in an application!{" "}
+						Powered by XZ1's partner program helps new and existing labels focus on their marketing and surface-level operations while having a trusted team to power the backend operations. We offer exclusive distribution through The Orchard and access to all XZ1 Recordings web portals and services (XZ1 RS (Release Submission) portal, Artist Central, and Creative Audio Industries). Click "Our services" on the navbar to see what we offer and then head to the Apply page to learn how to apply!
+					</Text>
+				</Box>
+			</Box>
+		</Section>
+		<Section padding="100px 0 100px 0" background="#000000" quarkly-title="FAQ-9">
+			<Text margin="0px 0px 70px 0px" font="normal 600 42px/1.2 --fontFamily-googleMichroma" color="#ff0000" sm-margin="0px 0px 50px 0px">
+				Frequently asked questions
+			</Text>
+			<Box
+				min-width="100px"
+				min-height="100px"
+				display="flex"
+				grid-template-columns="1fr"
+				grid-gap="50px 50px"
+				lg-grid-template-columns="repeat(2, 1fr)"
+				md-grid-template-columns="1fr"
+				sm-grid-gap="35px 0"
+				flex-direction="column"
+			>
+				<Box
+					min-width="10px"
+					min-height="10px"
+					display="flex"
+					padding="25px 0px 0px 0px"
+					border-width="1px 0 0 0"
+					border-style="solid"
+					border-color="--color-lightD2"
+					md-flex-direction="column"
+				>
+					<Text
+						margin="0px 0px 15px 0px"
+						font="normal 500 25px/1.2 --fontFamily-googleMichroma"
+						color="#ff0000"
+						width="40%"
+						md-width="100%"
+					>
+						What's the royalty split?{" "}
+					</Text>
+					<Text
+						margin="0px 0px 0px 0px"
+						font="normal 300 18px/1.5 --fontFamily-googleRobotoCondensed"
+						color="#ffffff"
+						width="60%"
+						padding="0px 0px 0px 50px"
+						md-width="100%"
+						md-padding="0px 0px 0px 0"
+					>
+						The royalty split for all Powered by XZ1 partnered labels is 60/40, 60 goes to your label, 40 goes to us.
+					</Text>
+				</Box>
+				<Box
+					min-width="10px"
+					min-height="10px"
+					display="flex"
+					padding="25px 0px 0px 0px"
+					border-width="1px 0 0 0"
+					border-style="solid"
+					border-color="--color-lightD2"
+					md-flex-direction="column"
+				>
+					<Text
+						margin="0px 0px 15px 0px"
+						font="normal 500 25px/1.2 --fontFamily-googleMichroma"
+						color="#ff0000"
+						width="40%"
+						md-width="100%"
+					>
+						Do I need to acknowledge that I'm partnered with Powered by XZ1?
+					</Text>
+					<Text
+						margin="0px 0px 0px 0px"
+						font="normal 300 18px/1.5 --fontFamily-googleRobotoCondensed"
+						color="#ffffff"
+						width="60%"
+						padding="0px 0px 0px 50px"
+						md-width="100%"
+						md-padding="0px 0px 0px 0"
+					>
+						Yes. You need to acknowledge that your label is partnered with us. You can ask us for more details or you'll automatically get them if you've sent an application and it's been accepted.
+					</Text>
+				</Box>
+				<Box
+					min-width="10px"
+					min-height="10px"
+					display="flex"
+					padding="25px 0px 0px 0px"
+					border-width="1px 0 0 0"
+					border-style="solid"
+					border-color="--color-lightD2"
+					md-flex-direction="column"
+				>
+					<Text
+						margin="0px 0px 15px 0px"
+						font="normal 500 25px/1.2 --fontFamily-googleMichroma"
+						color="#ff0000"
+						width="40%"
+						md-width="100%"
+					>
+						Who do you distribute with?
+					</Text>
+					<Text
+						margin="0px 0px 0px 0px"
+						font="normal 300 18px/1.5 --fontFamily-googleRobotoCondensed"
+						color="#ffffff"
+						width="60%"
+						padding="0px 0px 0px 50px"
+						md-width="100%"
+						md-padding="0px 0px 0px 0"
+					>
+						Our main division (XZ1 Recordings) is currently partnered with KAMAPRO/The Orchard for distribution. You can submit releases by using the website provided to you when you get a successful application.
+					</Text>
+				</Box>
+				<Box
+					min-width="10px"
+					min-height="10px"
+					display="flex"
+					padding="25px 0px 0px 0px"
+					border-width="1px 0 0 0"
+					border-style="solid"
+					border-color="--color-lightD2"
+					md-flex-direction="column"
+				>
+					<Text
+						margin="0px 0px 15px 0px"
+						font="normal 500 25px/1.2 --fontFamily-googleMichroma"
+						color="#ff0000"
+						width="40%"
+						md-width="100%"
+					>
+						How do I get paid out?
+					</Text>
+					<Text
+						margin="0px 0px 0px 0px"
+						font="normal 300 18px/1.5 --fontFamily-googleRobotoCondensed"
+						color="#ffffff"
+						width="60%"
+						padding="0px 0px 0px 50px"
+						md-width="100%"
+						md-padding="0px 0px 0px 0"
+					>
+						We pay out all labels through PayPal. If you do not have a PayPal account, we highly suggest you create one in order to get your royalties from your artists!
+					</Text>
+				</Box>
+				<Box
+					min-width="10px"
+					min-height="10px"
+					display="flex"
+					padding="25px 0px 0px 0px"
+					border-width="1px 0 0 0"
+					border-style="solid"
+					border-color="--color-lightD2"
+					md-flex-direction="column"
+				>
+					<Text
+						margin="0px 0px 15px 0px"
+						font="normal 500 25px/1.2 --fontFamily-googleMichroma"
+						color="#ff0000"
+						width="40%"
+						md-width="100%"
+					>
+						Does Powered by XZ1 handle promotion for my label?
+					</Text>
+					<Text
+						margin="0px 0px 0px 0px"
+						font="normal 300 18px/1.5 --fontFamily-googleRobotoCondensed"
+						color="#ffffff"
+						width="60%"
+						padding="0px 0px 0px 50px"
+						md-width="100%"
+						md-padding="0px 0px 0px 0"
+					>
+						No. Powered by XZ1 and XZ1 Recordings are solely distribution and audio service focused labels.{" "}
 					</Text>
 				</Box>
 			</Box>
