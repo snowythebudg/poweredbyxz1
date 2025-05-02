@@ -23,6 +23,7 @@ export default (() => {
 			<link rel={"apple-touch-startup-image"} href={"https://uploads.quarkly.io/68140255dc12f40020b49e6a/images/PWRDXZ1.png?v=2025-05-01T23:57:03.232Z"} />
 			<meta name={"msapplication-TileImage"} content={"https://uploads.quarkly.io/68140255dc12f40020b49e6a/images/PWRDXZ1.png?v=2025-05-01T23:57:03.232Z"} />
 		</Helmet>
+		<Components.QuarklycommunityKitScrollIndicator />
 		<Components.Header05012 />
 		<Section
 			text-align="center"

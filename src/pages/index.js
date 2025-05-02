@@ -243,6 +243,7 @@ export default (() => {
 			</Box>
 		</Section>
 		<Components.Footer05012 />
+		<Components.QuarklycommunityKitScrollIndicator color="#ff0000" />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}
