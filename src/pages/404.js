@@ -24,11 +24,11 @@ export default (() => {
 			<link rel={"apple-touch-startup-image"} href={"https://uploads.quarkly.io/68140255dc12f40020b49e6a/images/PWRDXZ1.png?v=2025-05-01T23:57:03.232Z"} />
 			<meta name={"msapplication-TileImage"} content={"https://uploads.quarkly.io/68140255dc12f40020b49e6a/images/PWRDXZ1.png?v=2025-05-01T23:57:03.232Z"} />
 		</Helmet>
-		<Components.Header0501 />
+		<Components.Header05012 />
 		<Section
 			padding="150px 0 150px 0"
 			min-height="100vh"
-			background="rgba(0, 0, 0, 0) url(https://images.unsplash.com/photo-1646700612220-bd1b99aa9610?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000) 0% 0% /cover no-repeat scroll padding-box"
+			background="rgba(0, 0, 0, 0) url(https://images.unsplash.com/photo-1516320654132-c3a74da4da5b?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000) 0% 0% /cover no-repeat scroll padding-box"
 			lg-padding="90px 0 90px 0"
 			quarkly-title="404-2"
 		>

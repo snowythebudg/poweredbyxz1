@@ -23,20 +23,7 @@ export default (() => {
 			<link rel={"apple-touch-startup-image"} href={"https://uploads.quarkly.io/68140255dc12f40020b49e6a/images/PWRDXZ1.png?v=2025-05-01T23:57:03.232Z"} />
 			<meta name={"msapplication-TileImage"} content={"https://uploads.quarkly.io/68140255dc12f40020b49e6a/images/PWRDXZ1.png?v=2025-05-01T23:57:03.232Z"} />
 		</Helmet>
-		<Components.Header0501>
-			<Override slot="text" font="normal 300 20px/1.5 --fontFamily-googleRobotoCondensed" />
-		</Components.Header0501>
-		<Components.Aboutboxbypass>
-			<Override slot="text">
-				IMPORTANT ANNOUNCEMENT
-			</Override>
-			<Override slot="text1">
-				This site is WIP
-			</Override>
-			<Override slot="text2">
-				Hello! This XZ1 service is brand new, so is this website. We just wanted to let you know that this site is work in progress. Our full list of services is not on the site yet and the application form isn't up and running just yet (it is there, you just can't submit)
-			</Override>
-		</Components.Aboutboxbypass>
+		<Components.Header05012 />
 		<Section padding="100px 0 0 0" background="#000000 url(https://images.unsplash.com/photo-1650954316166-c3361fefcc87?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000)" quarkly-title="Hero-17" transition="background-color 0.2s ease 0s">
 			<Override slot="SectionContent" flex-direction="row" />
 			<Box
@@ -78,7 +65,7 @@ export default (() => {
 						lg-padding="0px 0 0px 0"
 						lg-margin="0px 0px 30px 0px"
 					>
-						Powered by XZ1's partner program helps new and existing labels focus on their marketing and surface-level operations while having a trusted team to power the backend operations. We offer exclusive distribution through The Orchard and access to all XZ1 Recordings web portals and services (Release submission, Artist Central, Creative Audio Industries, XZ1 MUSIC PUBLISHING). Click "Our services" on the navbar to see what we offer and then head to the Apply page to send in an application! (NOTE: We offer more services, we can elaborate on them if you send us an email. You can find our email below)
+						Powered by XZ1's partner program helps new and existing labels focus on their marketing and surface-level operations while having a trusted team to power the backend operations. We offer exclusive distribution through The Orchard and access to all XZ1 Recordings web portals and services (Release submission, Artist Central, Creative Audio Industries, XZ1 MUSIC PUBLISHING). Click "Our services" on the navbar to see what we offer and then head to the Apply page to send in an application!{" "}
 					</Text>
 				</Box>
 			</Box>
