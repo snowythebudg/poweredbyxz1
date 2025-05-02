@@ -29,7 +29,7 @@ export default {
 		"68140be5dc12f40020b49f47": {
 			"id": "68140be5dc12f40020b49f47",
 			"pageUrl": "services",
-			"name": "services"
+			"name": "Services"
 		}
 	},
 	"mode": "production",

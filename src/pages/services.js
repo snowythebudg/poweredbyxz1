@@ -25,7 +25,6 @@ export default (() => {
 			<meta name={"msapplication-TileImage"} content={"https://uploads.quarkly.io/68140255dc12f40020b49e6a/images/PWRDXZ1.png?v=2025-05-01T23:57:03.232Z"} />
 		</Helmet>
 		<Components.Header05012 />
-		<Components.Aboutboxbypass />
 		<Section padding="0 0 0 0" quarkly-title="Content-6">
 			<Override
 				slot="SectionContent"
