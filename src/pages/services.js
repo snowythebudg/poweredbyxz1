@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Section, Box, Icon, Span } from "@quarkly/widgets";
+import { Theme, Link, Box, Text, Icon, Span, Section } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override } from "@quarkly/components";
@@ -11,39 +11,23 @@ export default (() => {
 		<GlobalQuarklyPageStyles pageUrl={"services"} />
 		<Helmet>
 			<title>
-				Quarkly export
+				Powered by XZ1 - Where Visionary Labels Meet Innovative Structure
 			</title>
-			<meta name={"description"} content={"Web site created using quarkly.io"} />
-			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/readme/cra/favicon-32x32.ico"} type={"image/x-icon"} />
+			<meta name={"description"} content={"Powered by XZ1 is a label partnership program built for emerging music entrepreneurs ready to take the next step. With global distribution through The Orchard and exclusive access to the XZ1 Recordings ecosystem, partners receive branding support, strategic guidance, and resources tailored for growth. Where visionary labels meet innovative structure. Powered by XZ1 is redefining what it means to be independent."} />
+			<meta property={"og:title"} content={"Powered by XZ1 - Where Visionary Labels Meet Innovative Structure"} />
+			<meta property={"og:description"} content={"Powered by XZ1 is a label partnership program built for emerging music entrepreneurs ready to take the next step. With global distribution through The Orchard and exclusive access to the XZ1 Recordings ecosystem, partners receive branding support, strategic guidance, and resources tailored for growth. Where visionary labels meet innovative structure. Powered by XZ1 is redefining what it means to be independent."} />
+			<meta property={"og:image"} content={"https://uploads.quarkly.io/68140255dc12f40020b49e6a/images/POWERED%20BY%20XZ1.png?v=2025-05-01T23:52:37.822Z"} />
+			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/68140255dc12f40020b49e6a/images/PWRDXZ1.png?v=2025-05-01T23:57:03.232Z"} type={"image/x-icon"} />
+			<link rel={"apple-touch-icon"} href={"https://uploads.quarkly.io/68140255dc12f40020b49e6a/images/PWRDXZ1.png?v=2025-05-01T23:57:03.232Z"} />
+			<link rel={"apple-touch-icon"} sizes={"76x76"} href={"https://uploads.quarkly.io/68140255dc12f40020b49e6a/images/PWRDXZ1.png?v=2025-05-01T23:57:03.232Z"} />
+			<link rel={"apple-touch-icon"} sizes={"152x152"} href={"https://uploads.quarkly.io/68140255dc12f40020b49e6a/images/PWRDXZ1.png?v=2025-05-01T23:57:03.232Z"} />
+			<link rel={"apple-touch-startup-image"} href={"https://uploads.quarkly.io/68140255dc12f40020b49e6a/images/PWRDXZ1.png?v=2025-05-01T23:57:03.232Z"} />
+			<meta name={"msapplication-TileImage"} content={"https://uploads.quarkly.io/68140255dc12f40020b49e6a/images/PWRDXZ1.png?v=2025-05-01T23:57:03.232Z"} />
 		</Helmet>
 		<Components.Header0501>
 			<Override slot="text" font="normal 300 16px/1.5 --fontFamily-googleRobotoCondensed" />
 		</Components.Header0501>
-		<Section
-			text-align="center"
-			background-color="--primary"
-			color="--light"
-			padding="80px 0"
-			sm-padding="40px 0"
-			background="#000000"
-		>
-			<Text
-				as="h5"
-				font="--lead"
-				margin="10px 0 0 0"
-				text-transform="uppercase"
-				letter-spacing="5px"
-				color="#ff2800"
-			>
-				Services offered
-			</Text>
-			<Text as="h1" font="--headline1" md-font="--headline2" margin="10px 0 0 0">
-				Our services
-			</Text>
-			<Text as="p" font="--lead" margin="40px 0 20px 0">
-				Interested in partnering with XZ1, here's a list of all the free (and paid) services you can get once you get a successful application with us.
-			</Text>
-		</Section>
+		<Components.Aboutboxbypass />
 		<Section padding="0 0 0 0" quarkly-title="Content-6">
 			<Override
 				slot="SectionContent"
