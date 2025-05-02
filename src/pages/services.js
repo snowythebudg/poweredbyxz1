@@ -54,16 +54,16 @@ export default (() => {
 				sm-padding="50px 25px 80px 25px"
 				background="#000000"
 			>
-				<Text margin="0px 0px 10px 0px" font="normal 400 18px/1.5 --fontFamily-sans" color="#ff0000">
+				<Text margin="0px 0px 10px 0px" font="normal 400 18px/1.5 --fontFamily-googleRobotoCondensed" color="#ff0000">
 					Distribution and accounting
 				</Text>
-				<Text margin="0px 0px 30px 0px" font="normal 600 42px/1.2 --fontFamily-sans" color="#ffffff">
+				<Text margin="0px 0px 30px 0px" font="normal 600 42px/1.2 --fontFamily-googleMichroma" color="#ffffff">
 					Exclusive distribution and easy accounting
 				</Text>
-				<Text margin="0px 0px 25px 0px" font="normal 300 22px/1.5 --fontFamily-sans" color="#ffffff">
+				<Text margin="0px 0px 25px 0px" font="normal 300 22px/1.5 --fontFamily-googleRobotoCondensed" color="#ffffff">
 					Powered by XZ1 provides exclusive distribution and easy accounting through PayPal for all partnered labels
 				</Text>
-				<Text margin="0px 0px 25px 0px" font="normal 300 16px/1.5 --fontFamily-sans" color="#ffffff">
+				<Text margin="0px 0px 25px 0px" font="normal 300 16px/1.5 --fontFamily-googleRobotoCondensed" color="#ffffff">
 					XZ1 Recordings and Powered by XZ1 are both powered by Sony's The Orchard music distribution. All partnered labels get global reach and their own spot on the XZ1 release submission portal located{" "}
 					<Link
 						color="#ff0000"
@@ -96,9 +96,9 @@ export default (() => {
 						margin="0px 10px 0px 0px"
 						padding="5px 0px 0px 0px"
 					/>
-					<Text margin="0px 0px 0px 0px" font="300 16px/27px --fontFamily-sans" color="#ffffff">
+					<Text margin="0px 0px 0px 0px" font="300 16px/27px --fontFamily-googleRobotoCondensed" color="#ffffff">
 						<Span
-							font="400 18px/27px Frutiger, &quot;Frutiger Linotype&quot;, Univers, Calibri, &quot;Gill Sans&quot;, &quot;Gill Sans MT&quot;, &quot;Myriad Pro&quot;, Myriad, &quot;DejaVu Sans Condensed&quot;, &quot;Liberation Sans&quot;, &quot;Nimbus Sans L&quot;, Tahoma, Geneva, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif"
+							font="400 18px/27px --fontFamily-googleRobotoCondensed"
 							overflow-wrap="normal"
 							word-break="normal"
 							white-space="normal"
@@ -129,7 +129,7 @@ export default (() => {
 					/>
 					<Text margin="0px 0px 0px 0px" font="300 16px/27px --fontFamily-sans" color="#ffffff">
 						<Span
-							font="400 18px/27px Frutiger, &quot;Frutiger Linotype&quot;, Univers, Calibri, &quot;Gill Sans&quot;, &quot;Gill Sans MT&quot;, &quot;Myriad Pro&quot;, Myriad, &quot;DejaVu Sans Condensed&quot;, &quot;Liberation Sans&quot;, &quot;Nimbus Sans L&quot;, Tahoma, Geneva, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif"
+							font="400 18px/27px --fontFamily-googleRobotoCondensed"
 							overflow-wrap="normal"
 							word-break="normal"
 							white-space="normal"
@@ -160,7 +160,7 @@ export default (() => {
 					/>
 					<Text margin="0px 0px 0px 0px" font="300 16px/27px --fontFamily-sans" color="#ffffff">
 						<Span
-							font="400 18px/27px Frutiger, &quot;Frutiger Linotype&quot;, Univers, Calibri, &quot;Gill Sans&quot;, &quot;Gill Sans MT&quot;, &quot;Myriad Pro&quot;, Myriad, &quot;DejaVu Sans Condensed&quot;, &quot;Liberation Sans&quot;, &quot;Nimbus Sans L&quot;, Tahoma, Geneva, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif"
+							font="400 18px/27px --fontFamily-googleRobotoCondensed"
 							overflow-wrap="normal"
 							word-break="normal"
 							white-space="normal"
