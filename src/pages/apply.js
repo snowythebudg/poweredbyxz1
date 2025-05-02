@@ -99,7 +99,7 @@ export default (() => {
 							<Text as="h3" font="--headline3" margin="0 0 20px 0">
 								Apply to Powered by XZ1
 							</Text>
-							<Formspree endpoint="xeqpgrlv">
+							<Formspree endpoint="mkgrjgnn" completeText="Thanks for applying, we'll get back to you if we're interested in working with you or if we need more information!" errorMessage="Your application did not go through. Please re-submit, contact XZ1 Recordings, or try again later.">
 								<Box gap="16px" display="flex" flex-direction="row" flex-wrap="wrap">
 									<Box padding="8px 8px 8px 8px" width="100%">
 										<Box display="flex" flex-direction="column">
