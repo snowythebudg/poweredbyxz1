@@ -46,7 +46,7 @@ export default (() => {
 				APPLICATION PORTAL
 			</Text>
 			<Text as="h1" font="--headline1" md-font="--headline2" margin="10px 0 0 0">
-				Apply to PWRDXZ1
+				Apply to Powered by XZ1
 			</Text>
 			<Text as="p" font="--lead" margin="40px 0 20px 0">
 				We're always excited to onboard new labels! Feel free to send in an application and we'll review it and get back to you.

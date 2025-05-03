@@ -24,7 +24,7 @@ export default (() => {
 			<meta name={"msapplication-TileImage"} content={"https://uploads.quarkly.io/68140255dc12f40020b49e6a/images/PWRDXZ1.png?v=2025-05-01T23:57:03.232Z"} />
 		</Helmet>
 		<Components.Header05012 />
-		<Section padding="100px 0 0 0" background="#000000 url(https://images.unsplash.com/photo-1650954316166-c3361fefcc87?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000)" quarkly-title="Hero-17" transition="background-color 0.2s ease 0s">
+		<Section padding="100px 0 0 0" background="#000000 url(https://images.unsplash.com/photo-1650954316166-c3361fefcc87?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000)" quarkly-title="Hero-17" transition="all 2s ease-in 0s">
 			<Override slot="SectionContent" flex-direction="row" />
 			<Box
 				min-width="100px"
