@@ -378,7 +378,7 @@ export default (() => {
 						margin="0px 0px 20px 0px"
 						type="link"
 						text-align="center"
-						href="https://paypal.me/mintybudgie"
+						href="https://buy.stripe.com/14A5kE74OaZxaFYgkJa7C0a"
 					>
 						Purchase
 					</Button>
@@ -590,12 +590,436 @@ export default (() => {
 						margin="0px 0px 20px 0px"
 						type="link"
 						text-align="center"
-						href="https://paypal.me/mintybudgie"
+						href="https://buy.stripe.com/dRm9AU74O4B9cO64C1a7C09"
 					>
 						Purchase
 					</Button>
 					<Text margin="0px 0px 15px 0px" font="normal 300 17px/1.5 --fontFamily-googleRobotoCondensed" color="#ffffff" text-align="center">
-						Your very own custom xz1recordings.ca subdomain. This is a one time purchase. After your purchase, you'll recieve an email asking what prefix you want and we'll create your subdomain and ask you about domain setup to get your site up and running under an XZ1 subdomain.
+						Your very own custom xz1recordings.ca subdomain. This is a recurring purchase with yearly billing. After your purchase, you'll recieve an email asking what prefix you want and we'll create your subdomain and ask you about domain setup to get your site up and running under an XZ1 subdomain.
+					</Text>
+				</Box>
+			</Box>
+		</Section>
+		<Section
+			padding="120px 0 120px 0"
+			lg-margin="0 0 0 0"
+			lg-padding="80px 0 80px 0"
+			quarkly-title="Price-11"
+			background="#000000"
+		>
+			<Override slot="SectionContent" border-width="0px" />
+			<Text
+				margin="0px 0px 20px 0px"
+				font="normal 600 46px/1.2 --fontFamily-googleMichroma"
+				text-align="center"
+				md-margin="0px 0px 50px 0px"
+				width="700p"
+				align-self="center"
+				color="#ffffff"
+				sm-margin="0px 0px 30px 0px"
+			>
+				Powered by XZ1 All Access Mastering (Monthly Billing)
+			</Text>
+			<Text
+				margin="0px 0px 70px 0px"
+				text-align="center"
+				font="normal 300 20px/1.5 --fontFamily-googleRobotoCondensed"
+				width="700px"
+				align-self="center"
+				md-width="100%"
+				color="#ffffff"
+				md-margin="0px 0px 60px 0px"
+				sm-margin="0px 0px 40px 0px"
+			>
+				Along with your label partnership, you can also get unlimited mastering for all of your label's artists
+			</Text>
+			<Box
+				min-width="100px"
+				min-height="100px"
+				display="flex"
+				lg-margin="0px 0 0px 0"
+				md-flex-direction="column"
+				lg-flex-direction="column"
+				border-color="#ffffff"
+				border-radius="25px"
+				padding="10px 10px 10px 0px"
+				lg-padding="10px 10px 10px 10px"
+			>
+				<Box
+					min-width="100px"
+					min-height="100px"
+					padding="30px 80px 30px 30px"
+					border-color="#dadbe2"
+					display="flex"
+					flex-direction="column"
+					position="relative"
+					z-index="2"
+					width="70%"
+					lg-width="100%"
+					lg-padding="30px 30px 30px 30px"
+					font="normal 300 20px/1.5 --fontFamily-sansHelvetica"
+					md-border-width="1px"
+					md-align-items="stretch"
+					margin="0 0px 0px 0px"
+					lg-margin="0 0px 0 0px"
+					lg-border-radius="25px"
+					justify-content="center"
+					sm-padding="10px 10px 10px 10px"
+				>
+					<Box
+						min-width="100px"
+						min-height="100px"
+						display="flex"
+						flex-direction="column"
+						margin="0px 0px 35px 0px"
+					>
+						<Text
+							margin="0px 0px 15px 0px"
+							font="normal 600 25px/1.5 --fontFamily-googleRobotoCondensed"
+							color="#ff0000"
+							lg-margin="0px 0px 20px 0px"
+							sm-margin="0px 0px 10px 0px"
+						>
+							Powered by XZ1 All Access Mastering (Monthly)
+						</Text>
+						<Text margin="0px 0px 25px 0px" font="normal 300 17px/1.5 --fontFamily-googleRobotoCondensed" color="#ffffff">
+							Unlimited mastering for an unlimited amount of artists. Includes unlimited retakes and masters in any format of your choosing{"\n\n"}
+						</Text>
+						<Box
+							min-width="10px"
+							min-height="10px"
+							display="grid"
+							grid-template-columns="repeat(2, 1fr)"
+							sm-grid-template-columns="1fr"
+						>
+							<Box min-width="10px" min-height="10px" display="flex" align-items="center">
+								<Icon
+									category="io"
+									icon={IoIosCheckmark}
+									size="32px"
+									color="#ff0000"
+									margin="0px 8px 0px 0px"
+								/>
+								<Text margin="0px 0px 0px 0px" font="normal 300 17px/1.2 --fontFamily-googleRobotoCondensed" color="#ffffff">
+									Unlimited mastering
+								</Text>
+							</Box>
+							<Box min-width="10px" min-height="10px" display="flex" align-items="center">
+								<Icon
+									category="io"
+									icon={IoIosCheckmark}
+									size="32px"
+									color="#ff0000"
+									margin="0px 8px 0px 0px"
+								/>
+								<Text margin="0px 0px 0px 0px" font="normal 300 17px/1.2 --fontFamily-googleRobotoCondensed" color="#ffffff">
+									Covers every artist on your label
+								</Text>
+							</Box>
+							<Box min-width="10px" min-height="10px" display="flex" align-items="center">
+								<Icon
+									category="io"
+									icon={IoIosCheckmark}
+									size="32px"
+									color="#ff0000"
+									margin="0px 8px 0px 0px"
+								/>
+								<Text margin="0px 0px 0px 0px" font="normal 300 17px/1.2 --fontFamily-googleRobotoCondensed" color="#ffffff">
+									Unlimited retakes
+								</Text>
+							</Box>
+							<Box min-width="10px" min-height="10px" display="flex" align-items="center">
+								<Icon
+									category="io"
+									icon={IoIosCheckmark}
+									size="32px"
+									color="#ff0000"
+									margin="0px 8px 0px 0px"
+								/>
+								<Text margin="0px 0px 0px 0px" font="normal 300 17px/1.2 --fontFamily-googleRobotoCondensed" color="#ffffff">
+									Masters in .flac, .wav, or a custom format of your choosing
+								</Text>
+							</Box>
+						</Box>
+					</Box>
+				</Box>
+				<Box
+					min-width="100px"
+					min-height="100px"
+					padding="30px 60px 30px 60px"
+					border-color="#dadbe2"
+					display="flex"
+					flex-direction="column"
+					position="relative"
+					z-index="1"
+					lg-width="100%"
+					lg-align-items="stretch"
+					md-align-items="stretch"
+					sm-padding="30px 15px 30px 15px"
+					justify-content="center"
+					lg-border-radius="25px"
+					background="#000000"
+					width="40%"
+					border-radius="25px"
+					lg-order="-1"
+					lg-margin="0px 0px 40px 0px"
+					md-margin="0px 0px 30px 0px"
+				>
+					<Box
+						min-width="100px"
+						min-height="100px"
+						display="flex"
+						flex-direction="column"
+						margin="0px 0px 0 0px"
+					>
+						<Text margin="0px 0px 15px 0px" font="normal 300 20px/1.5 --fontFamily-googleRobotoCondensed" color="#ff0000" text-align="center">
+							All Access Mastering
+						</Text>
+						<Text margin="0px 0px 20px 0px" font="normal 400 17px/1.5 --fontFamily-googleMichroma" color="#80868a" text-align="center">
+							<Span
+								font="normal 700 46px/1.2 --fontFamily-sans"
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+								user-select="auto"
+								pointer-events="auto"
+								color="#ff0000"
+							>
+								$2.00
+							</Span>
+							CAD
+						</Text>
+					</Box>
+					<Button
+						background="#ff0000"
+						color="#ffffff"
+						border-color="#ff0000"
+						border-radius="4px"
+						font="normal 400 17px/1.5 --fontFamily-googleMichroma"
+						margin="0px 0px 20px 0px"
+						type="link"
+						text-align="center"
+						href="https://buy.stripe.com/8x200kah04B95lEc4ta7C02"
+					>
+						Purchase
+					</Button>
+					<Text margin="0px 0px 15px 0px" font="normal 300 17px/1.5 --fontFamily-googleRobotoCondensed" color="#ffffff" text-align="center">
+						An All Access Pass for mastering that grants you and your artists' unlimited mastering with unlimited retakes. This is a recurring purchase with MONTHLY payments. Cancel anytime
+					</Text>
+				</Box>
+			</Box>
+		</Section>
+		<Section
+			padding="120px 0 120px 0"
+			lg-margin="0 0 0 0"
+			lg-padding="80px 0 80px 0"
+			quarkly-title="Price-11"
+			background="#000000"
+		>
+			<Override slot="SectionContent" border-width="0px" />
+			<Text
+				margin="0px 0px 20px 0px"
+				font="normal 600 46px/1.2 --fontFamily-googleMichroma"
+				text-align="center"
+				md-margin="0px 0px 50px 0px"
+				width="700p"
+				align-self="center"
+				color="#ffffff"
+				sm-margin="0px 0px 30px 0px"
+			>
+				Powered by XZ1 All Access Mastering (Annual Billing)
+			</Text>
+			<Text
+				margin="0px 0px 70px 0px"
+				text-align="center"
+				font="normal 300 20px/1.5 --fontFamily-googleRobotoCondensed"
+				width="700px"
+				align-self="center"
+				md-width="100%"
+				color="#ffffff"
+				md-margin="0px 0px 60px 0px"
+				sm-margin="0px 0px 40px 0px"
+			>
+				Along with your label partnership, you can also get unlimited mastering for all of your label's artists
+			</Text>
+			<Box
+				min-width="100px"
+				min-height="100px"
+				display="flex"
+				lg-margin="0px 0 0px 0"
+				md-flex-direction="column"
+				lg-flex-direction="column"
+				border-color="#ffffff"
+				border-radius="25px"
+				padding="10px 10px 10px 0px"
+				lg-padding="10px 10px 10px 10px"
+			>
+				<Box
+					min-width="100px"
+					min-height="100px"
+					padding="30px 80px 30px 30px"
+					border-color="#dadbe2"
+					display="flex"
+					flex-direction="column"
+					position="relative"
+					z-index="2"
+					width="70%"
+					lg-width="100%"
+					lg-padding="30px 30px 30px 30px"
+					font="normal 300 20px/1.5 --fontFamily-sansHelvetica"
+					md-border-width="1px"
+					md-align-items="stretch"
+					margin="0 0px 0px 0px"
+					lg-margin="0 0px 0 0px"
+					lg-border-radius="25px"
+					justify-content="center"
+					sm-padding="10px 10px 10px 10px"
+				>
+					<Box
+						min-width="100px"
+						min-height="100px"
+						display="flex"
+						flex-direction="column"
+						margin="0px 0px 35px 0px"
+					>
+						<Text
+							margin="0px 0px 15px 0px"
+							font="normal 600 25px/1.5 --fontFamily-googleRobotoCondensed"
+							color="#ff0000"
+							lg-margin="0px 0px 20px 0px"
+							sm-margin="0px 0px 10px 0px"
+						>
+							Powered by XZ1 All Access Mastering (Annual)
+						</Text>
+						<Text margin="0px 0px 25px 0px" font="normal 300 17px/1.5 --fontFamily-googleRobotoCondensed" color="#ffffff">
+							Unlimited mastering for an unlimited amount of artists. Includes unlimited retakes and masters in any format of your choosing{"\n\n\n\n"}
+						</Text>
+						<Box
+							min-width="10px"
+							min-height="10px"
+							display="grid"
+							grid-template-columns="repeat(2, 1fr)"
+							sm-grid-template-columns="1fr"
+						>
+							<Box min-width="10px" min-height="10px" display="flex" align-items="center">
+								<Icon
+									category="io"
+									icon={IoIosCheckmark}
+									size="32px"
+									color="#ff0000"
+									margin="0px 8px 0px 0px"
+								/>
+								<Text margin="0px 0px 0px 0px" font="normal 300 17px/1.2 --fontFamily-googleRobotoCondensed" color="#ffffff">
+									Unlimited mastering
+								</Text>
+							</Box>
+							<Box min-width="10px" min-height="10px" display="flex" align-items="center">
+								<Icon
+									category="io"
+									icon={IoIosCheckmark}
+									size="32px"
+									color="#ff0000"
+									margin="0px 8px 0px 0px"
+								/>
+								<Text margin="0px 0px 0px 0px" font="normal 300 17px/1.2 --fontFamily-googleRobotoCondensed" color="#ffffff">
+									Covers every artist on your label
+								</Text>
+							</Box>
+							<Box min-width="10px" min-height="10px" display="flex" align-items="center">
+								<Icon
+									category="io"
+									icon={IoIosCheckmark}
+									size="32px"
+									color="#ff0000"
+									margin="0px 8px 0px 0px"
+								/>
+								<Text margin="0px 0px 0px 0px" font="normal 300 17px/1.2 --fontFamily-googleRobotoCondensed" color="#ffffff">
+									Unlimited retakes
+								</Text>
+							</Box>
+							<Box min-width="10px" min-height="10px" display="flex" align-items="center">
+								<Icon
+									category="io"
+									icon={IoIosCheckmark}
+									size="32px"
+									color="#ff0000"
+									margin="0px 8px 0px 0px"
+								/>
+								<Text margin="0px 0px 0px 0px" font="normal 300 17px/1.2 --fontFamily-googleRobotoCondensed" color="#ffffff">
+									Masters in .flac, .wav, or a custom format of your choosing
+								</Text>
+							</Box>
+						</Box>
+					</Box>
+				</Box>
+				<Box
+					min-width="100px"
+					min-height="100px"
+					padding="30px 60px 30px 60px"
+					border-color="#dadbe2"
+					display="flex"
+					flex-direction="column"
+					position="relative"
+					z-index="1"
+					lg-width="100%"
+					lg-align-items="stretch"
+					md-align-items="stretch"
+					sm-padding="30px 15px 30px 15px"
+					justify-content="center"
+					lg-border-radius="25px"
+					background="#000000"
+					width="40%"
+					border-radius="25px"
+					lg-order="-1"
+					lg-margin="0px 0px 40px 0px"
+					md-margin="0px 0px 30px 0px"
+				>
+					<Box
+						min-width="100px"
+						min-height="100px"
+						display="flex"
+						flex-direction="column"
+						margin="0px 0px 0 0px"
+					>
+						<Text margin="0px 0px 15px 0px" font="normal 300 20px/1.5 --fontFamily-googleRobotoCondensed" color="#ff0000" text-align="center">
+							All Access Mastering
+						</Text>
+						<Text margin="0px 0px 20px 0px" font="normal 400 17px/1.5 --fontFamily-googleMichroma" color="#80868a" text-align="center">
+							<Span
+								font="normal 700 46px/1.2 --fontFamily-sans"
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+								user-select="auto"
+								pointer-events="auto"
+								color="#ff0000"
+							>
+								$23.99
+							</Span>
+							CAD
+						</Text>
+					</Box>
+					<Button
+						background="#ff0000"
+						color="#ffffff"
+						border-color="#ff0000"
+						border-radius="4px"
+						font="normal 400 17px/1.5 --fontFamily-googleMichroma"
+						margin="0px 0px 20px 0px"
+						type="link"
+						text-align="center"
+						href="https://buy.stripe.com/6oU00k9cW0kT6pI0lLa7C03"
+					>
+						Purchase
+					</Button>
+					<Text margin="0px 0px 15px 0px" font="normal 300 17px/1.5 --fontFamily-googleRobotoCondensed" color="#ffffff" text-align="center">
+						An All Access Pass for mastering that grants you and your artists' unlimited mastering with unlimited retakes. This is a recurring purchase with ANNUAL payments. Cancel anytime
 					</Text>
 				</Box>
 			</Box>
