@@ -8,7 +8,8 @@ export default {
 				"68140255dc12f40020b49e6f",
 				"68140255dc12f40020b49e72",
 				"68140a807d6a95001a624f8a",
-				"68140be5dc12f40020b49f47"
+				"68140be5dc12f40020b49f47",
+				"684f7f9beb72ed0019e6efbe"
 			]
 		},
 		"68140255dc12f40020b49e6f": {
@@ -48,6 +49,11 @@ export default {
 				"og:description": "All the services that Powered by XZ1 has to offer",
 				"og:title": "Powered by XZ1 - Our services"
 			}
+		},
+		"684f7f9beb72ed0019e6efbe": {
+			"id": "684f7f9beb72ed0019e6efbe",
+			"pageUrl": "manage-payments",
+			"name": "Manage Payments"
 		}
 	},
 	"mode": "production",
