@@ -1000,7 +1000,7 @@ export default (() => {
 								pointer-events="auto"
 								color="#ff0000"
 							>
-								$23.99
+								$63.99
 							</Span>
 							CAD
 						</Text>
