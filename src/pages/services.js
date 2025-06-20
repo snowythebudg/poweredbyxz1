@@ -788,9 +788,9 @@ export default (() => {
 								pointer-events="auto"
 								color="#ff0000"
 							>
-								$2.00
+								$9.99
 							</Span>
-							CAD
+							CAD/month
 						</Text>
 					</Box>
 					<Button
