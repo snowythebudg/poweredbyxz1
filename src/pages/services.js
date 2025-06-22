@@ -108,7 +108,7 @@ export default (() => {
 							user-select="auto"
 							pointer-events="auto"
 						>
-							Exclusive distribution: All partnered labels get exclusive distribution by XZ1 and our partner, KAMAPRO. KAMAPRO has a deal with The Orchard which gives all XZ1 clients and XZ1 partnered labels access to global music distribution
+							Exclusive distribution: All partnered labels get exclusive distribution by XZ1 and our partner, KAMAPRO.
 						</Span>
 					</Text>
 				</Box>

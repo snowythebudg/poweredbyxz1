@@ -65,7 +65,7 @@ export default (() => {
 						lg-padding="0px 0 0px 0"
 						lg-margin="0px 0px 30px 0px"
 					>
-						Powered by XZ1's partner program helps new and existing labels focus on their marketing and surface-level operations while having a trusted team to power the backend operations. We offer exclusive distribution through The Orchard and access to all XZ1 Recordings web portals and services (XZ1 RS (Release Submission) portal, Artist Central, and Creative Audio Industries). Click "Our services" on the navbar to see what we offer and then head to the Apply page to learn how to apply!
+						Powered by XZ1's partner program helps new and existing labels focus on their marketing and surface-level operations while having a trusted team to power the backend operations. We offer exclusive distribution and access to all XZ1 Recordings web portals and services (XZ1 RS (Release Submission) portal, Artist Central, and Creative Audio Industries). Click "Our services" on the navbar to see what we offer and then head to the Apply page to learn how to apply!
 					</Text>
 				</Box>
 			</Box>
@@ -175,7 +175,7 @@ export default (() => {
 						md-width="100%"
 						md-padding="0px 0px 0px 0"
 					>
-						Our main division (XZ1 Recordings) is currently partnered with KAMAPRO/The Orchard for distribution. You can submit releases by using the website provided to you when you get a successful application.
+						Our main division (XZ1 Recordings) is currently partnered with KAMAPRO for distribution. You can submit releases by using the website provided to you when you get a successful application.
 					</Text>
 				</Box>
 				<Box
