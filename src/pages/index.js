@@ -70,6 +70,30 @@ export default (() => {
 				</Box>
 			</Box>
 		</Section>
+		<Section
+			text-align="center"
+			background-color="--primary"
+			color="--light"
+			padding="80px 0"
+			sm-padding="40px 0"
+			background="#000000"
+		>
+			<Text
+				as="h5"
+				font="--lead"
+				margin="10px 0 0 0"
+				text-transform="uppercase"
+				letter-spacing="5px"
+			>
+				important announcement
+			</Text>
+			<Text as="h1" font="--headline2" md-font="--headline2" margin="10px 0 0 0">
+				Powered by XZ1 is being merged into Route 83 Catalog Management
+			</Text>
+			<Text as="p" font="--lead" margin="40px 0 20px 0">
+				Powered by XZ1 is being merged into Route 83 Catalog Management. Powered by XZ1 will remain open but all releases will be shown as Route 83 Catalog Management on streaming services as opposed to "Your label name/Powered by XZ1 (XZ1 Recordings). Instead, you'll see "Route 83 Catalog Management (on behalf of Your label name)". Powered by XZ1 will continue to operate as normal, just with that change + the ability to use your own C lines with no Powered by XZ1 branding attached. Usually it'd be "Your label name, distributed by Powered by XZ1, a division of XZ1 Recording Ventures"
+			</Text>
+		</Section>
 		<Section padding="100px 0 100px 0" background="#000000" quarkly-title="FAQ-9">
 			<Text margin="0px 0px 70px 0px" font="normal 600 42px/1.2 --fontFamily-googleMichroma" color="#ff0000" sm-margin="0px 0px 50px 0px">
 				Frequently asked questions
@@ -242,7 +266,11 @@ export default (() => {
 				</Box>
 			</Box>
 		</Section>
-		<Components.Footer05012 />
+		<Components.Footer05012>
+			<Override slot="text1">
+				© 2025 Powered by XZ1, operating in cooperation with XZ1 Recording Ventures and Route 83 Catalog Management{" "}
+			</Override>
+		</Components.Footer05012>
 		<Components.QuarklycommunityKitScrollIndicator color="#ff0000">
 			<Override slot="Indicator" background="#ff0000" />
 		</Components.QuarklycommunityKitScrollIndicator>
