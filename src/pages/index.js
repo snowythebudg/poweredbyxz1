@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Box, Section } from "@quarkly/widgets";
+import { Theme, Link, Text, Section, Box } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override } from "@quarkly/components";
@@ -24,52 +24,6 @@ export default (() => {
 			<meta name={"msapplication-TileImage"} content={"https://uploads.quarkly.io/68140255dc12f40020b49e6a/images/PWRDXZ1.png?v=2025-05-01T23:57:03.232Z"} />
 		</Helmet>
 		<Components.Header05012 />
-		<Section padding="100px 0 0 0" background="#000000 url(https://images.unsplash.com/photo-1650954316166-c3361fefcc87?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&h=2000)" quarkly-title="Hero-17" transition="all 2s ease-in 0s">
-			<Override slot="SectionContent" flex-direction="row" />
-			<Box
-				min-width="100px"
-				min-height="100px"
-				display="flex"
-				justify-content="space-around"
-				lg-flex-direction="column"
-				flex-direction="column"
-			>
-				<Box
-					min-width="100px"
-					min-height="100px"
-					lg-width="100%"
-					display="flex"
-					flex-direction="column"
-					lg-padding="0px 0 0px 0px"
-					lg-margin="0px 0px 50px 0px"
-					margin="0px 0px 80px 0px"
-					align-items="center"
-				>
-					<Text
-						margin="0px 0px 20px 0px"
-						font="normal 400 64px/1.2 --fontFamily-googleMichroma"
-						sm-font="normal 700 42px/1.2 --fontFamily-sans"
-						padding="0px 250px 0px 250px"
-						text-align="center"
-						lg-padding="0px 0 0px 0"
-						color="#ffffff"
-					>
-						Kickstart your record label
-					</Text>
-					<Text
-						margin="0px 0px 50px 0px"
-						font="--lead"
-						color="#ffffff"
-						text-align="center"
-						padding="0px 250px 0px 250px"
-						lg-padding="0px 0 0px 0"
-						lg-margin="0px 0px 30px 0px"
-					>
-						Powered by XZ1's partner program helps new and existing labels focus on their marketing and surface-level operations while having a trusted team to power the backend operations. We offer exclusive distribution and access to all XZ1 Recordings web portals and services (XZ1 RS (Release Submission) portal, Artist Central, and Creative Audio Industries). Click "Our services" on the navbar to see what we offer and then head to the Apply page to learn how to apply!
-					</Text>
-				</Box>
-			</Box>
-		</Section>
 		<Section
 			text-align="center"
 			background-color="--primary"
@@ -88,10 +42,13 @@ export default (() => {
 				important announcement
 			</Text>
 			<Text as="h1" font="--headline2" md-font="--headline2" margin="10px 0 0 0">
-				Powered by XZ1 is being merged into Route 83 Catalog Management
+				Powered by XZ1 has shutdown
 			</Text>
 			<Text as="p" font="--lead" margin="40px 0 20px 0">
-				Powered by XZ1 is being merged into Route 83 Catalog Management. Powered by XZ1 will remain open but all releases will be shown as Route 83 Catalog Management on streaming services as opposed to "Your label name/Powered by XZ1 (XZ1 Recordings). Instead, you'll see "Route 83 Catalog Management (on behalf of Your label name)". Powered by XZ1 will continue to operate as normal, just with that change + the ability to use your own C lines with no Powered by XZ1 branding attached. Usually it'd be "Your label name, distributed by Powered by XZ1, a division of XZ1 Recording Ventures"
+				As of October 2025, Powered by XZ1 has been shutdown. Current releases under Powered by XZ1 will be diverted to XZ1 Recordings or released under our distribution company Trackball Distribution (opens in November!). For more information,{" "}
+				<Link href="mailto:poweredby@xz1recordings.ca" color="#ff0004">
+					send us an email!
+				</Link>
 			</Text>
 		</Section>
 		<Section padding="100px 0 100px 0" background="#000000" quarkly-title="FAQ-9">
