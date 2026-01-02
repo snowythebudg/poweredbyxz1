@@ -225,7 +225,7 @@ export default (() => {
 		</Section>
 		<Components.Footer05012>
 			<Override slot="text1">
-				© 2025 Powered by XZ1, operating in cooperation with XZ1 Recording Ventures and Route 83 Catalog Management{" "}
+				© 2026 XZ1 Recording Ventures Inc.
 			</Override>
 		</Components.Footer05012>
 		<Components.QuarklycommunityKitScrollIndicator color="#ff0000">
